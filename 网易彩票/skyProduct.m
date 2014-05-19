@@ -18,7 +18,9 @@
 - (instancetype)initWithDic:(NSDictionary *)dic
 {
     if (self = [super init]) {
-        [self setValuesForKeysWithDictionary:dic];
+//        [self setValuesForKeysWithDictionary:dic];
+        self.title = dic[@"title"];
+        self.icon = dic[@"icon"];
     }
     return self;
 }

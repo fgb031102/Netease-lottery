@@ -32,6 +32,11 @@
 		332BC54019298F90000DFBCA /* skyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC53F19298F90000DFBCA /* skyCollectionViewController.m */; };
 		332BC54419299A9E000DFBCA /* skyProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC54319299A9E000DFBCA /* skyProduct.m */; };
 		332BC54819299BA5000DFBCA /* skyProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC54719299BA5000DFBCA /* skyProductCell.m */; };
+		332BC54A1929C03E000DFBCA /* skyProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332BC5491929C03E000DFBCA /* skyProductCell.xib */; };
+		332BC54C1929C2BD000DFBCA /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = 332BC54B1929C2BD000DFBCA /* help.json */; };
+		332BC5501929D518000DFBCA /* skyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC54E1929D518000DFBCA /* skyViewController.m */; };
+		332BC5511929D518000DFBCA /* skyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332BC54F1929D518000DFBCA /* skyViewController.xib */; };
+		332BC5531929D7B6000DFBCA /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 332BC5521929D7B6000DFBCA /* products.json */; };
 		33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A411928ECAA00E97667 /* skyTitleButton.m */; };
 		33CD8A451928FDAC00E97667 /* skyBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A441928FDAC00E97667 /* skyBuyViewController.m */; };
 		33CD8A4C1928FF2500E97667 /* skysetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A4B1928FF2500E97667 /* skysetViewController.m */; };
@@ -92,6 +97,12 @@
 		332BC54319299A9E000DFBCA /* skyProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyProduct.m; sourceTree = "<group>"; };
 		332BC54619299BA5000DFBCA /* skyProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyProductCell.h; sourceTree = "<group>"; };
 		332BC54719299BA5000DFBCA /* skyProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyProductCell.m; sourceTree = "<group>"; };
+		332BC5491929C03E000DFBCA /* skyProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = skyProductCell.xib; sourceTree = "<group>"; };
+		332BC54B1929C2BD000DFBCA /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		332BC54D1929D518000DFBCA /* skyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyViewController.h; sourceTree = "<group>"; };
+		332BC54E1929D518000DFBCA /* skyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyViewController.m; sourceTree = "<group>"; };
+		332BC54F1929D518000DFBCA /* skyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = skyViewController.xib; sourceTree = "<group>"; };
+		332BC5521929D7B6000DFBCA /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		33CD8A401928ECAA00E97667 /* skyTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyTitleButton.h; sourceTree = "<group>"; };
 		33CD8A411928ECAA00E97667 /* skyTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyTitleButton.m; sourceTree = "<group>"; };
 		33CD8A431928FDAC00E97667 /* skyBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyBuyViewController.h; sourceTree = "<group>"; };
@@ -266,6 +277,8 @@
 		332BC54119299A80000DFBCA /* product */ = {
 			isa = PBXGroup;
 			children = (
+				332BC54B1929C2BD000DFBCA /* help.json */,
+				332BC5521929D7B6000DFBCA /* products.json */,
 				332BC54219299A9E000DFBCA /* skyProduct.h */,
 				332BC54319299A9E000DFBCA /* skyProduct.m */,
 			);
@@ -277,6 +290,7 @@
 			children = (
 				332BC54619299BA5000DFBCA /* skyProductCell.h */,
 				332BC54719299BA5000DFBCA /* skyProductCell.m */,
+				332BC5491929C03E000DFBCA /* skyProductCell.xib */,
 			);
 			name = viewCell;
 			sourceTree = "<group>";
@@ -332,6 +346,9 @@
 			children = (
 				33CD8A4A1928FF2500E97667 /* skysetViewController.h */,
 				33CD8A4B1928FF2500E97667 /* skysetViewController.m */,
+				332BC54D1929D518000DFBCA /* skyViewController.h */,
+				332BC54E1929D518000DFBCA /* skyViewController.m */,
+				332BC54F1929D518000DFBCA /* skyViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -413,9 +430,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332BC54A1929C03E000DFBCA /* skyProductCell.xib in Resources */,
+				332BC5531929D7B6000DFBCA /* products.json in Resources */,
 				330367A819270D8B001190FD /* Images.xcassets in Resources */,
 				332BC53B192975A9000DFBCA /* MBProgressHUD.bundle in Resources */,
+				332BC5511929D518000DFBCA /* skyViewController.xib in Resources */,
 				3303677519270853001190FD /* InfoPlist.strings in Resources */,
+				332BC54C1929C2BD000DFBCA /* help.json in Resources */,
 				3303677E19270853001190FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +458,7 @@
 			files = (
 				33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */,
 				332BC53319295C71000DFBCA /* skyCell.m in Sources */,
+				332BC5501929D518000DFBCA /* skyViewController.m in Sources */,
 				33CD8A4C1928FF2500E97667 /* skysetViewController.m in Sources */,
 				332BC54819299BA5000DFBCA /* skyProductCell.m in Sources */,
 				330367B519284607001190FD /* skyTabBarItem.m in Sources */,

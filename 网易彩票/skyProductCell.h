@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class skyProduct;
 
 @interface skyProductCell : UICollectionViewCell
+
+@property (nonatomic,strong)skyProduct *product;
 
 @end

@@ -12,6 +12,8 @@
 #import "skySwitchItem.h"
 #import "skyCell.h"
 #import "MBProgressHUD+MJ.h"
+#import "skyCollectionViewController.h"
+#import "skyViewController.h"
 
 @interface skysetViewController ()
 
@@ -35,7 +37,7 @@
     [super viewDidLoad];
     
     skyGroupItem *group1 = [[skyGroupItem alloc] init];
-    skySetCellItem *item1 = [skyArrowItem arrowCellWithTitle:@"信息推送" icon:@"MorePush" dest:nil];
+    skySetCellItem *item1 = [skyArrowItem arrowCellWithTitle:@"信息推送" icon:@"MorePush" dest:[skyViewController class]];
     skySetCellItem *item2 = [skySwitchItem cellWithTitle:@"信息推送" icon:@"MorePush"];
     group1.header = @"头部1";
     group1.footer = @"尾部1";
@@ -57,7 +59,7 @@
         });
     };
     
-    skySetCellItem *item4 = [skyArrowItem arrowCellWithTitle:@"产品推荐" icon:@"MorePush" dest:nil];
+    skySetCellItem *item4 = [skyArrowItem arrowCellWithTitle:@"产品推荐" icon:@"MorePush" dest:[skyCollectionViewController class]];
     skySetCellItem *item5 = [skySwitchItem cellWithTitle:@"关于" icon:@"MorePush"];
     
     group2.header = @"头部2";
@@ -128,6 +130,15 @@
     skySetCellItem *cellItem = group.items[indexPath.row];
     if (cellItem.operation) {
         cellItem.operation();
+    }else if ([cellItem isKindOfClass:[skyArrowItem class]]) {
+        skyArrowItem *arrowItem = (skyArrowItem *)cellItem;
+        if (arrowItem.dest == nil) {
+            return;
+        }
+
+        UIViewController *vc = [[arrowItem.dest alloc] init];//因为UICollectionView创建的时候需要传入样式布局，但是为了保证程序的扩展性我们不能使用带有布局参数的init方法，因此我们只能将UICollectionView的init方法进行重写。
+        vc.title = arrowItem.title;
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
