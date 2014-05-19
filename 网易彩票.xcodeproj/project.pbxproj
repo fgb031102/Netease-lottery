@@ -25,9 +25,17 @@
 		330367AB19270EED001190FD /* skyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 330367AA19270EED001190FD /* skyTabBar.m */; };
 		330367B219271740001190FD /* UIImage+sky.m in Sources */ = {isa = PBXBuildFile; fileRef = 330367B119271740001190FD /* UIImage+sky.m */; };
 		330367B519284607001190FD /* skyTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 330367B419284607001190FD /* skyTabBarItem.m */; };
+		332BC53319295C71000DFBCA /* skyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC53219295C71000DFBCA /* skyCell.m */; };
+		332BC53A192975A9000DFBCA /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC536192975A9000DFBCA /* MBProgressHUD+MJ.m */; };
+		332BC53B192975A9000DFBCA /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 332BC537192975A9000DFBCA /* MBProgressHUD.bundle */; };
+		332BC53C192975A9000DFBCA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC539192975A9000DFBCA /* MBProgressHUD.m */; };
 		33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A411928ECAA00E97667 /* skyTitleButton.m */; };
 		33CD8A451928FDAC00E97667 /* skyBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A441928FDAC00E97667 /* skyBuyViewController.m */; };
 		33CD8A4C1928FF2500E97667 /* skysetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A4B1928FF2500E97667 /* skysetViewController.m */; };
+		33CD8A521929141000E97667 /* skyGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A511929141000E97667 /* skyGroupItem.m */; };
+		33CD8A551929146F00E97667 /* skySetCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A541929146F00E97667 /* skySetCellItem.m */; };
+		33CD8A641929514900E97667 /* skyArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A631929514900E97667 /* skyArrowItem.m */; };
+		33CD8A671929515F00E97667 /* skySwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A661929515F00E97667 /* skySwitchItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,12 +76,27 @@
 		330367B119271740001190FD /* UIImage+sky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+sky.m"; sourceTree = "<group>"; };
 		330367B319284607001190FD /* skyTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyTabBarItem.h; sourceTree = "<group>"; };
 		330367B419284607001190FD /* skyTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyTabBarItem.m; sourceTree = "<group>"; };
+		332BC53119295C71000DFBCA /* skyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyCell.h; sourceTree = "<group>"; };
+		332BC53219295C71000DFBCA /* skyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyCell.m; sourceTree = "<group>"; };
+		332BC535192975A9000DFBCA /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		332BC536192975A9000DFBCA /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		332BC537192975A9000DFBCA /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		332BC538192975A9000DFBCA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		332BC539192975A9000DFBCA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		33CD8A401928ECAA00E97667 /* skyTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyTitleButton.h; sourceTree = "<group>"; };
 		33CD8A411928ECAA00E97667 /* skyTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyTitleButton.m; sourceTree = "<group>"; };
 		33CD8A431928FDAC00E97667 /* skyBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyBuyViewController.h; sourceTree = "<group>"; };
 		33CD8A441928FDAC00E97667 /* skyBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyBuyViewController.m; sourceTree = "<group>"; };
 		33CD8A4A1928FF2500E97667 /* skysetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skysetViewController.h; sourceTree = "<group>"; };
 		33CD8A4B1928FF2500E97667 /* skysetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skysetViewController.m; sourceTree = "<group>"; };
+		33CD8A501929141000E97667 /* skyGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyGroupItem.h; sourceTree = "<group>"; };
+		33CD8A511929141000E97667 /* skyGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyGroupItem.m; sourceTree = "<group>"; };
+		33CD8A531929146F00E97667 /* skySetCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skySetCellItem.h; sourceTree = "<group>"; };
+		33CD8A541929146F00E97667 /* skySetCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skySetCellItem.m; sourceTree = "<group>"; };
+		33CD8A621929514900E97667 /* skyArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyArrowItem.h; sourceTree = "<group>"; };
+		33CD8A631929514900E97667 /* skyArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyArrowItem.m; sourceTree = "<group>"; };
+		33CD8A651929515F00E97667 /* skySwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skySwitchItem.h; sourceTree = "<group>"; };
+		33CD8A661929515F00E97667 /* skySwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skySwitchItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +230,18 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		332BC534192975A9000DFBCA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				332BC535192975A9000DFBCA /* MBProgressHUD+MJ.h */,
+				332BC536192975A9000DFBCA /* MBProgressHUD+MJ.m */,
+				332BC537192975A9000DFBCA /* MBProgressHUD.bundle */,
+				332BC538192975A9000DFBCA /* MBProgressHUD.h */,
+				332BC539192975A9000DFBCA /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		33CD8A3C1928EAC100E97667 /* buy */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +256,7 @@
 		33CD8A461928FEF300E97667 /* set */ = {
 			isa = PBXGroup;
 			children = (
+				332BC534192975A9000DFBCA /* MBProgressHUD */,
 				33CD8A491928FF0A00E97667 /* Controller */,
 				33CD8A481928FF0300E97667 /* view */,
 				33CD8A471928FEFA00E97667 /* model */,
@@ -231,6 +267,14 @@
 		33CD8A471928FEFA00E97667 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				33CD8A501929141000E97667 /* skyGroupItem.h */,
+				33CD8A511929141000E97667 /* skyGroupItem.m */,
+				33CD8A531929146F00E97667 /* skySetCellItem.h */,
+				33CD8A541929146F00E97667 /* skySetCellItem.m */,
+				33CD8A621929514900E97667 /* skyArrowItem.h */,
+				33CD8A631929514900E97667 /* skyArrowItem.m */,
+				33CD8A651929515F00E97667 /* skySwitchItem.h */,
+				33CD8A661929515F00E97667 /* skySwitchItem.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -238,6 +282,8 @@
 		33CD8A481928FF0300E97667 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				332BC53119295C71000DFBCA /* skyCell.h */,
+				332BC53219295C71000DFBCA /* skyCell.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -329,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				330367A819270D8B001190FD /* Images.xcassets in Resources */,
+				332BC53B192975A9000DFBCA /* MBProgressHUD.bundle in Resources */,
 				3303677519270853001190FD /* InfoPlist.strings in Resources */,
 				3303677E19270853001190FD /* Main.storyboard in Resources */,
 			);
@@ -350,14 +397,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */,
+				332BC53319295C71000DFBCA /* skyCell.m in Sources */,
 				33CD8A4C1928FF2500E97667 /* skysetViewController.m in Sources */,
 				330367B519284607001190FD /* skyTabBarItem.m in Sources */,
+				332BC53A192975A9000DFBCA /* MBProgressHUD+MJ.m in Sources */,
 				33CD8A451928FDAC00E97667 /* skyBuyViewController.m in Sources */,
 				3303677B19270853001190FD /* skyAppDelegate.m in Sources */,
+				332BC53C192975A9000DFBCA /* MBProgressHUD.m in Sources */,
+				33CD8A671929515F00E97667 /* skySwitchItem.m in Sources */,
 				330367A11927092E001190FD /* skyTabBarViewController.m in Sources */,
 				330367A519270A4D001190FD /* skyNavigationViewController.m in Sources */,
+				33CD8A521929141000E97667 /* skyGroupItem.m in Sources */,
+				33CD8A551929146F00E97667 /* skySetCellItem.m in Sources */,
 				330367B219271740001190FD /* UIImage+sky.m in Sources */,
 				3303677719270853001190FD /* main.m in Sources */,
+				33CD8A641929514900E97667 /* skyArrowItem.m in Sources */,
 				330367AB19270EED001190FD /* skyTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

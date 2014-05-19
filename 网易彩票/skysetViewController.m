@@ -7,8 +7,15 @@
 //
 
 #import "skysetViewController.h"
+#import "skyArrowItem.h"
+#import "skyGroupItem.h"
+#import "skySwitchItem.h"
+#import "skyCell.h"
+#import "MBProgressHUD+MJ.h"
 
 @interface skysetViewController ()
+
+@property (nonatomic,strong)NSMutableArray *data;
 
 @end
 
@@ -27,11 +34,46 @@
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    skyGroupItem *group1 = [[skyGroupItem alloc] init];
+    skySetCellItem *item1 = [skyArrowItem arrowCellWithTitle:@"信息推送" icon:@"MorePush" dest:nil];
+    skySetCellItem *item2 = [skySwitchItem cellWithTitle:@"信息推送" icon:@"MorePush"];
+    group1.header = @"头部1";
+    group1.footer = @"尾部1";
+    NSArray *items1 = @[item1,item2];
+    group1.items = items1;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    skyGroupItem *group2 = [[skyGroupItem alloc] init];
+    skySetCellItem *item3 = [skyArrowItem arrowCellWithTitle:@"检查新版本" icon:@"MorePush" dest:nil];
+    item3.operation = ^{
+        [MBProgressHUD showMessage:@"正在加载..."];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [MBProgressHUD hideHUD];
+            [MBProgressHUD showSuccess:@"已经是最新版本"];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [MBProgressHUD hideHUD];
+            });
+        });
+    };
+    
+    skySetCellItem *item4 = [skyArrowItem arrowCellWithTitle:@"产品推荐" icon:@"MorePush" dest:nil];
+    skySetCellItem *item5 = [skySwitchItem cellWithTitle:@"关于" icon:@"MorePush"];
+    
+    group2.header = @"头部2";
+    group2.footer = @"尾部2";
+    NSArray *items2 = @[item3,item4,item5];
+    group2.items = items2;
+    
+    [self.data addObject:group1];
+    [self.data addObject:group2];
+}
+
+- (NSMutableArray *)data
+{
+    if (_data == nil) {
+        _data = [[NSMutableArray alloc] init];
+    }
+    return _data;
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,76 +86,49 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return self.data.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    skyGroupItem *group = self.data[section];
+    return group.items.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    skyCell *cell = [skyCell cellWithTableView:tableView];
+
+    skyGroupItem *groupItem = self.data[indexPath.section];
+
+    skySetCellItem *cellItem = groupItem.items[indexPath.row];
+
+    cell.item = cellItem;
+
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+    skyGroupItem *group = self.data[section];
+    return group.header;
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
 {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+    skyGroupItem *group = self.data[section];
+    return group.footer;
 }
-*/
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    skyGroupItem *group = self.data[indexPath.section];
+    skySetCellItem *cellItem = group.items[indexPath.row];
+    if (cellItem.operation) {
+        cellItem.operation();
+        
+    }
 }
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
