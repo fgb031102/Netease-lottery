@@ -44,7 +44,8 @@
     
     
     skyGroupItem *group2 = [[skyGroupItem alloc] init];
-    skySetCellItem *item3 = [skyArrowItem arrowCellWithTitle:@"检查新版本" icon:@"MorePush" dest:nil];
+    //用基类来创建一个cell对象，此时cell右边的数据将没有accessoryView的设置。
+    skySetCellItem *item3 = [skySetCellItem cellWithTitle:@"检查新版本" icon:@"MorePush"];
     item3.operation = ^{
         [MBProgressHUD showMessage:@"正在加载..."];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -127,7 +128,6 @@
     skySetCellItem *cellItem = group.items[indexPath.row];
     if (cellItem.operation) {
         cellItem.operation();
-        
     }
 }
 
