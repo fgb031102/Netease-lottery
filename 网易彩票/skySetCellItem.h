@@ -16,6 +16,8 @@ typedef void (^Operation)();
 
 @property (nonatomic,copy)NSString *icon;
 
+@property (nonatomic,copy)NSString *subTitles;
+
 @property (nonatomic,copy)Operation operation;
 
 + (instancetype)cellWithTitle:(NSString *)title icon:(NSString *)icon;

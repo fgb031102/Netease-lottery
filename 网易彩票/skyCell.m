@@ -36,7 +36,7 @@
     static NSString *indetifier = @"cell";
     skyCell *cell = [tableView dequeueReusableCellWithIdentifier:indetifier];
     if (cell == nil) {
-        cell = [[skyCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:indetifier];
+        cell = [[skyCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:indetifier];
     }
     return cell;
 }
@@ -92,6 +92,9 @@
 {
     self.textLabel.text = self.item.title;
     self.imageView.image = [UIImage imageWithName:self.item.icon];
+    if (self.item.title) {
+        self.detailTextLabel.text = self.item.subTitles;
+    }
 }
 
 @end

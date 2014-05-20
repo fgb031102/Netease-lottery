@@ -15,6 +15,7 @@
 #import "skyCollectionViewController.h"
 #import "skyViewController.h"
 #import "skyPushViewController.h"
+#import "skyAboutViewController.h"
 
 @interface skysetViewController ()
 
@@ -61,7 +62,8 @@
     };
     
     skySetCellItem *item4 = [skyArrowItem arrowCellWithTitle:@"产品推荐" icon:@"MorePush" dest:[skyCollectionViewController class]];
-    skySetCellItem *item5 = [skySwitchItem cellWithTitle:@"关于" icon:@"MorePush"];
+   
+    skySetCellItem *item5 = [skyArrowItem arrowCellWithTitle:@"关于" icon:@"MorePush" dest:[skyAboutViewController class]];
     
     group2.header = @"头部2";
     group2.footer = @"尾部2";

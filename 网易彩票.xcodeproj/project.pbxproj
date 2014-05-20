@@ -39,6 +39,10 @@
 		332BC5531929D7B6000DFBCA /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 332BC5521929D7B6000DFBCA /* products.json */; };
 		332BC5561929EE68000DFBCA /* skyBaseSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC5551929EE68000DFBCA /* skyBaseSetViewController.m */; };
 		332BC5591929F055000DFBCA /* skyPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC5581929F055000DFBCA /* skyPushViewController.m */; };
+		3331B5B9192AEAD00065C21F /* skyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331B5B8192AEAD00065C21F /* skyHeaderView.m */; };
+		3331B5BB192AEAEB0065C21F /* skyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3331B5BA192AEAEB0065C21F /* skyHeaderView.xib */; };
+		33CBAD2F192AA2B200245B05 /* skyAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAD2E192AA2B200245B05 /* skyAboutViewController.m */; };
+		33CBAD32192AA37700245B05 /* skyLabelCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAD31192AA37700245B05 /* skyLabelCellItem.m */; };
 		33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A411928ECAA00E97667 /* skyTitleButton.m */; };
 		33CD8A451928FDAC00E97667 /* skyBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A441928FDAC00E97667 /* skyBuyViewController.m */; };
 		33CD8A4C1928FF2500E97667 /* skysetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A4B1928FF2500E97667 /* skysetViewController.m */; };
@@ -109,6 +113,13 @@
 		332BC5551929EE68000DFBCA /* skyBaseSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyBaseSetViewController.m; sourceTree = "<group>"; };
 		332BC5571929F055000DFBCA /* skyPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyPushViewController.h; sourceTree = "<group>"; };
 		332BC5581929F055000DFBCA /* skyPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyPushViewController.m; sourceTree = "<group>"; };
+		3331B5B7192AEAD00065C21F /* skyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyHeaderView.h; sourceTree = "<group>"; };
+		3331B5B8192AEAD00065C21F /* skyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyHeaderView.m; sourceTree = "<group>"; };
+		3331B5BA192AEAEB0065C21F /* skyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = skyHeaderView.xib; sourceTree = "<group>"; };
+		33CBAD2D192AA2B200245B05 /* skyAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyAboutViewController.h; sourceTree = "<group>"; };
+		33CBAD2E192AA2B200245B05 /* skyAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyAboutViewController.m; sourceTree = "<group>"; };
+		33CBAD30192AA37700245B05 /* skyLabelCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyLabelCellItem.h; sourceTree = "<group>"; };
+		33CBAD31192AA37700245B05 /* skyLabelCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyLabelCellItem.m; sourceTree = "<group>"; };
 		33CD8A401928ECAA00E97667 /* skyTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyTitleButton.h; sourceTree = "<group>"; };
 		33CD8A411928ECAA00E97667 /* skyTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyTitleButton.m; sourceTree = "<group>"; };
 		33CD8A431928FDAC00E97667 /* skyBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyBuyViewController.h; sourceTree = "<group>"; };
@@ -334,6 +345,8 @@
 				33CD8A631929514900E97667 /* skyArrowItem.m */,
 				33CD8A651929515F00E97667 /* skySwitchItem.h */,
 				33CD8A661929515F00E97667 /* skySwitchItem.m */,
+				33CBAD30192AA37700245B05 /* skyLabelCellItem.h */,
+				33CBAD31192AA37700245B05 /* skyLabelCellItem.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -352,6 +365,11 @@
 			children = (
 				33CD8A4A1928FF2500E97667 /* skysetViewController.h */,
 				33CD8A4B1928FF2500E97667 /* skysetViewController.m */,
+				33CBAD2D192AA2B200245B05 /* skyAboutViewController.h */,
+				33CBAD2E192AA2B200245B05 /* skyAboutViewController.m */,
+				3331B5B7192AEAD00065C21F /* skyHeaderView.h */,
+				3331B5B8192AEAD00065C21F /* skyHeaderView.m */,
+				3331B5BA192AEAEB0065C21F /* skyHeaderView.xib */,
 				332BC54D1929D518000DFBCA /* skyViewController.h */,
 				332BC54E1929D518000DFBCA /* skyViewController.m */,
 				332BC54F1929D518000DFBCA /* skyViewController.xib */,
@@ -440,6 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3331B5BB192AEAEB0065C21F /* skyHeaderView.xib in Resources */,
 				332BC54A1929C03E000DFBCA /* skyProductCell.xib in Resources */,
 				332BC5531929D7B6000DFBCA /* products.json in Resources */,
 				330367A819270D8B001190FD /* Images.xcassets in Resources */,
@@ -469,6 +488,7 @@
 				33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */,
 				332BC53319295C71000DFBCA /* skyCell.m in Sources */,
 				332BC5591929F055000DFBCA /* skyPushViewController.m in Sources */,
+				3331B5B9192AEAD00065C21F /* skyHeaderView.m in Sources */,
 				332BC5501929D518000DFBCA /* skyViewController.m in Sources */,
 				33CD8A4C1928FF2500E97667 /* skysetViewController.m in Sources */,
 				332BC54819299BA5000DFBCA /* skyProductCell.m in Sources */,
@@ -478,6 +498,7 @@
 				3303677B19270853001190FD /* skyAppDelegate.m in Sources */,
 				332BC53C192975A9000DFBCA /* MBProgressHUD.m in Sources */,
 				332BC54019298F90000DFBCA /* skyCollectionViewController.m in Sources */,
+				33CBAD2F192AA2B200245B05 /* skyAboutViewController.m in Sources */,
 				33CD8A671929515F00E97667 /* skySwitchItem.m in Sources */,
 				332BC5561929EE68000DFBCA /* skyBaseSetViewController.m in Sources */,
 				332BC54419299A9E000DFBCA /* skyProduct.m in Sources */,
@@ -485,6 +506,7 @@
 				330367A519270A4D001190FD /* skyNavigationViewController.m in Sources */,
 				33CD8A521929141000E97667 /* skyGroupItem.m in Sources */,
 				33CD8A551929146F00E97667 /* skySetCellItem.m in Sources */,
+				33CBAD32192AA37700245B05 /* skyLabelCellItem.m in Sources */,
 				330367B219271740001190FD /* UIImage+sky.m in Sources */,
 				3303677719270853001190FD /* main.m in Sources */,
 				33CD8A641929514900E97667 /* skyArrowItem.m in Sources */,
