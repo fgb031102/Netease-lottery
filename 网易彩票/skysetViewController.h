@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "skyBaseSetViewController.h"
 
-@interface skysetViewController : UITableViewController
+@interface skysetViewController : skyBaseSetViewController
 
 @end

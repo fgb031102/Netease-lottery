@@ -16,10 +16,12 @@
 #import "skyViewController.h"
 #import "skyPushViewController.h"
 #import "skyAboutViewController.h"
+#import "skyHelpViewController.h"
+
 
 @interface skysetViewController ()
 
-@property (nonatomic,strong)NSMutableArray *data;
+//@property (nonatomic,strong)NSMutableArray *data;
 
 @end
 
@@ -65,15 +67,18 @@
    
     skySetCellItem *item5 = [skyArrowItem arrowCellWithTitle:@"关于" icon:@"MorePush" dest:[skyAboutViewController class]];
     
+    skySetCellItem *item6 = [skyArrowItem arrowCellWithTitle:@"帮助" icon:@"MorePush" dest:[skyHelpViewController class]];
+    
     group2.header = @"头部2";
     group2.footer = @"尾部2";
-    NSArray *items2 = @[item3,item4,item5];
+    NSArray *items2 = @[item3,item4,item5,item6];
     group2.items = items2;
     
     [self.data addObject:group1];
     [self.data addObject:group2];
 }
 
+/*
 - (NSMutableArray *)data
 {
     if (_data == nil) {
@@ -144,5 +149,5 @@
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
-
+*/
 @end

@@ -41,6 +41,39 @@
 		332BC5591929F055000DFBCA /* skyPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332BC5581929F055000DFBCA /* skyPushViewController.m */; };
 		3331B5B9192AEAD00065C21F /* skyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331B5B8192AEAD00065C21F /* skyHeaderView.m */; };
 		3331B5BB192AEAEB0065C21F /* skyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3331B5BA192AEAEB0065C21F /* skyHeaderView.xib */; };
+		3331B5BE192B03190065C21F /* skyHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331B5BD192B03190065C21F /* skyHelpViewController.m */; };
+		3331B5C1192B077B0065C21F /* skyHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331B5C0192B077B0065C21F /* skyHtmlViewController.m */; };
+		3331B5C3192B0CD90065C21F /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B5C2192B0CD90065C21F /* test.html */; };
+		3331B623192B16070065C21F /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B606192B16070065C21F /* bjdc_howto.html */; };
+		3331B624192B16070065C21F /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B607192B16070065C21F /* coupon_help.html */; };
+		3331B625192B16070065C21F /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B608192B16070065C21F /* credit_help.html */; };
+		3331B626192B16070065C21F /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B609192B16070065C21F /* dlt_howto.html */; };
+		3331B627192B16070065C21F /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B60A192B16070065C21F /* f9_howto.html */; };
+		3331B628192B16070065C21F /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B60B192B16070065C21F /* gdy11_howto.html */; };
+		3331B629192B16070065C21F /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B60C192B16070065C21F /* group_record.html */; };
+		3331B62A192B16070065C21F /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B60D192B16070065C21F /* help.html */; };
+		3331B62B192B16070065C21F /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B60E192B16070065C21F /* helpGroupBuy.html */; };
+		3331B62C192B16070065C21F /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B60F192B16070065C21F /* jclq_howto.html */; };
+		3331B62D192B16070065C21F /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B610192B16070065C21F /* jczq_howto.html */; };
+		3331B62E192B16070065C21F /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B611192B16070065C21F /* jxssc_howto.html */; };
+		3331B62F192B16070065C21F /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B612192B16070065C21F /* jxy11_howto.html */; };
+		3331B630192B16070065C21F /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B613192B16070065C21F /* k2_howto.html */; };
+		3331B631192B16070065C21F /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B614192B16070065C21F /* k3_howto.html */; };
+		3331B632192B16070065C21F /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B615192B16070065C21F /* kl8_howto.html */; };
+		3331B633192B16070065C21F /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B616192B16070065C21F /* lk11_howto.html */; };
+		3331B634192B16070065C21F /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B617192B16070065C21F /* networkconnectedfailed.html */; };
+		3331B635192B16070065C21F /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B618192B16070065C21F /* pl3_howto.html */; };
+		3331B636192B16070065C21F /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B619192B16070065C21F /* pl5_howto.html */; };
+		3331B637192B16070065C21F /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B61A192B16070065C21F /* qlc_howto.html */; };
+		3331B638192B16070065C21F /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B61B192B16070065C21F /* qxc_howto.html */; };
+		3331B639192B16070065C21F /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = 3331B61C192B16070065C21F /* rule.css */; };
+		3331B63A192B16070065C21F /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B61D192B16070065C21F /* sfc_howto.html */; };
+		3331B63B192B16070065C21F /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B61E192B16070065C21F /* ssc_howto.html */; };
+		3331B63C192B16070065C21F /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B61F192B16070065C21F /* ssq_howto.html */; };
+		3331B63D192B16070065C21F /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B620192B16070065C21F /* x3d_howto.html */; };
+		3331B63E192B16070065C21F /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B621192B16070065C21F /* y11_howto.html */; };
+		3331B63F192B16070065C21F /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = 3331B622192B16070065C21F /* znzh.html */; };
+		3331B642192B2A470065C21F /* skyHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 3331B641192B2A470065C21F /* skyHtml.m */; };
 		33CBAD2F192AA2B200245B05 /* skyAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAD2E192AA2B200245B05 /* skyAboutViewController.m */; };
 		33CBAD32192AA37700245B05 /* skyLabelCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CBAD31192AA37700245B05 /* skyLabelCellItem.m */; };
 		33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CD8A411928ECAA00E97667 /* skyTitleButton.m */; };
@@ -116,6 +149,42 @@
 		3331B5B7192AEAD00065C21F /* skyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyHeaderView.h; sourceTree = "<group>"; };
 		3331B5B8192AEAD00065C21F /* skyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyHeaderView.m; sourceTree = "<group>"; };
 		3331B5BA192AEAEB0065C21F /* skyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = skyHeaderView.xib; sourceTree = "<group>"; };
+		3331B5BC192B03190065C21F /* skyHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyHelpViewController.h; sourceTree = "<group>"; };
+		3331B5BD192B03190065C21F /* skyHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyHelpViewController.m; sourceTree = "<group>"; };
+		3331B5BF192B077B0065C21F /* skyHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyHtmlViewController.h; sourceTree = "<group>"; };
+		3331B5C0192B077B0065C21F /* skyHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyHtmlViewController.m; sourceTree = "<group>"; };
+		3331B5C2192B0CD90065C21F /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		3331B606192B16070065C21F /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		3331B607192B16070065C21F /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		3331B608192B16070065C21F /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		3331B609192B16070065C21F /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		3331B60A192B16070065C21F /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		3331B60B192B16070065C21F /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		3331B60C192B16070065C21F /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		3331B60D192B16070065C21F /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		3331B60E192B16070065C21F /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		3331B60F192B16070065C21F /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		3331B610192B16070065C21F /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		3331B611192B16070065C21F /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		3331B612192B16070065C21F /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		3331B613192B16070065C21F /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		3331B614192B16070065C21F /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		3331B615192B16070065C21F /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		3331B616192B16070065C21F /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		3331B617192B16070065C21F /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		3331B618192B16070065C21F /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		3331B619192B16070065C21F /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		3331B61A192B16070065C21F /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		3331B61B192B16070065C21F /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		3331B61C192B16070065C21F /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		3331B61D192B16070065C21F /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		3331B61E192B16070065C21F /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		3331B61F192B16070065C21F /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		3331B620192B16070065C21F /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		3331B621192B16070065C21F /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		3331B622192B16070065C21F /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		3331B640192B2A470065C21F /* skyHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyHtml.h; sourceTree = "<group>"; };
+		3331B641192B2A470065C21F /* skyHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyHtml.m; sourceTree = "<group>"; };
 		33CBAD2D192AA2B200245B05 /* skyAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyAboutViewController.h; sourceTree = "<group>"; };
 		33CBAD2E192AA2B200245B05 /* skyAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = skyAboutViewController.m; sourceTree = "<group>"; };
 		33CBAD30192AA37700245B05 /* skyLabelCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skyLabelCellItem.h; sourceTree = "<group>"; };
@@ -283,6 +352,7 @@
 		332BC53D19298E58000DFBCA /* products */ = {
 			isa = PBXGroup;
 			children = (
+				3331B605192B16070065C21F /* Html */,
 				332BC54519299B78000DFBCA /* viewCell */,
 				332BC54119299A80000DFBCA /* product */,
 				332BC53E19298F90000DFBCA /* skyCollectionViewController.h */,
@@ -294,10 +364,13 @@
 		332BC54119299A80000DFBCA /* product */ = {
 			isa = PBXGroup;
 			children = (
+				3331B5C2192B0CD90065C21F /* test.html */,
 				332BC54B1929C2BD000DFBCA /* help.json */,
 				332BC5521929D7B6000DFBCA /* products.json */,
 				332BC54219299A9E000DFBCA /* skyProduct.h */,
 				332BC54319299A9E000DFBCA /* skyProduct.m */,
+				3331B640192B2A470065C21F /* skyHtml.h */,
+				3331B641192B2A470065C21F /* skyHtml.m */,
 			);
 			name = product;
 			sourceTree = "<group>";
@@ -310,6 +383,42 @@
 				332BC5491929C03E000DFBCA /* skyProductCell.xib */,
 			);
 			name = viewCell;
+			sourceTree = "<group>";
+		};
+		3331B605192B16070065C21F /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				3331B606192B16070065C21F /* bjdc_howto.html */,
+				3331B607192B16070065C21F /* coupon_help.html */,
+				3331B608192B16070065C21F /* credit_help.html */,
+				3331B609192B16070065C21F /* dlt_howto.html */,
+				3331B60A192B16070065C21F /* f9_howto.html */,
+				3331B60B192B16070065C21F /* gdy11_howto.html */,
+				3331B60C192B16070065C21F /* group_record.html */,
+				3331B60D192B16070065C21F /* help.html */,
+				3331B60E192B16070065C21F /* helpGroupBuy.html */,
+				3331B60F192B16070065C21F /* jclq_howto.html */,
+				3331B610192B16070065C21F /* jczq_howto.html */,
+				3331B611192B16070065C21F /* jxssc_howto.html */,
+				3331B612192B16070065C21F /* jxy11_howto.html */,
+				3331B613192B16070065C21F /* k2_howto.html */,
+				3331B614192B16070065C21F /* k3_howto.html */,
+				3331B615192B16070065C21F /* kl8_howto.html */,
+				3331B616192B16070065C21F /* lk11_howto.html */,
+				3331B617192B16070065C21F /* networkconnectedfailed.html */,
+				3331B618192B16070065C21F /* pl3_howto.html */,
+				3331B619192B16070065C21F /* pl5_howto.html */,
+				3331B61A192B16070065C21F /* qlc_howto.html */,
+				3331B61B192B16070065C21F /* qxc_howto.html */,
+				3331B61C192B16070065C21F /* rule.css */,
+				3331B61D192B16070065C21F /* sfc_howto.html */,
+				3331B61E192B16070065C21F /* ssc_howto.html */,
+				3331B61F192B16070065C21F /* ssq_howto.html */,
+				3331B620192B16070065C21F /* x3d_howto.html */,
+				3331B621192B16070065C21F /* y11_howto.html */,
+				3331B622192B16070065C21F /* znzh.html */,
+			);
+			path = Html;
 			sourceTree = "<group>";
 		};
 		33CD8A3C1928EAC100E97667 /* buy */ = {
@@ -377,6 +486,10 @@
 				332BC5551929EE68000DFBCA /* skyBaseSetViewController.m */,
 				332BC5571929F055000DFBCA /* skyPushViewController.h */,
 				332BC5581929F055000DFBCA /* skyPushViewController.m */,
+				3331B5BC192B03190065C21F /* skyHelpViewController.h */,
+				3331B5BD192B03190065C21F /* skyHelpViewController.m */,
+				3331B5BF192B077B0065C21F /* skyHtmlViewController.h */,
+				3331B5C0192B077B0065C21F /* skyHtmlViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -458,15 +571,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3331B633192B16070065C21F /* lk11_howto.html in Resources */,
+				3331B63D192B16070065C21F /* x3d_howto.html in Resources */,
+				3331B62B192B16070065C21F /* helpGroupBuy.html in Resources */,
+				3331B637192B16070065C21F /* qlc_howto.html in Resources */,
+				3331B623192B16070065C21F /* bjdc_howto.html in Resources */,
+				3331B63C192B16070065C21F /* ssq_howto.html in Resources */,
+				3331B62A192B16070065C21F /* help.html in Resources */,
+				3331B634192B16070065C21F /* networkconnectedfailed.html in Resources */,
 				3331B5BB192AEAEB0065C21F /* skyHeaderView.xib in Resources */,
+				3331B62C192B16070065C21F /* jclq_howto.html in Resources */,
+				3331B630192B16070065C21F /* k2_howto.html in Resources */,
+				3331B63B192B16070065C21F /* ssc_howto.html in Resources */,
 				332BC54A1929C03E000DFBCA /* skyProductCell.xib in Resources */,
 				332BC5531929D7B6000DFBCA /* products.json in Resources */,
+				3331B639192B16070065C21F /* rule.css in Resources */,
 				330367A819270D8B001190FD /* Images.xcassets in Resources */,
 				332BC53B192975A9000DFBCA /* MBProgressHUD.bundle in Resources */,
+				3331B638192B16070065C21F /* qxc_howto.html in Resources */,
+				3331B632192B16070065C21F /* kl8_howto.html in Resources */,
+				3331B63F192B16070065C21F /* znzh.html in Resources */,
 				332BC5511929D518000DFBCA /* skyViewController.xib in Resources */,
+				3331B63E192B16070065C21F /* y11_howto.html in Resources */,
 				3303677519270853001190FD /* InfoPlist.strings in Resources */,
 				332BC54C1929C2BD000DFBCA /* help.json in Resources */,
+				3331B62D192B16070065C21F /* jczq_howto.html in Resources */,
+				3331B629192B16070065C21F /* group_record.html in Resources */,
+				3331B62E192B16070065C21F /* jxssc_howto.html in Resources */,
+				3331B628192B16070065C21F /* gdy11_howto.html in Resources */,
+				3331B63A192B16070065C21F /* sfc_howto.html in Resources */,
+				3331B636192B16070065C21F /* pl5_howto.html in Resources */,
+				3331B626192B16070065C21F /* dlt_howto.html in Resources */,
+				3331B625192B16070065C21F /* credit_help.html in Resources */,
+				3331B62F192B16070065C21F /* jxy11_howto.html in Resources */,
+				3331B627192B16070065C21F /* f9_howto.html in Resources */,
+				3331B631192B16070065C21F /* k3_howto.html in Resources */,
+				3331B635192B16070065C21F /* pl3_howto.html in Resources */,
+				3331B5C3192B0CD90065C21F /* test.html in Resources */,
 				3303677E19270853001190FD /* Main.storyboard in Resources */,
+				3331B624192B16070065C21F /* coupon_help.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +629,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33CD8A421928ECAA00E97667 /* skyTitleButton.m in Sources */,
+				3331B5BE192B03190065C21F /* skyHelpViewController.m in Sources */,
 				332BC53319295C71000DFBCA /* skyCell.m in Sources */,
 				332BC5591929F055000DFBCA /* skyPushViewController.m in Sources */,
 				3331B5B9192AEAD00065C21F /* skyHeaderView.m in Sources */,
@@ -495,12 +639,14 @@
 				330367B519284607001190FD /* skyTabBarItem.m in Sources */,
 				332BC53A192975A9000DFBCA /* MBProgressHUD+MJ.m in Sources */,
 				33CD8A451928FDAC00E97667 /* skyBuyViewController.m in Sources */,
+				3331B642192B2A470065C21F /* skyHtml.m in Sources */,
 				3303677B19270853001190FD /* skyAppDelegate.m in Sources */,
 				332BC53C192975A9000DFBCA /* MBProgressHUD.m in Sources */,
 				332BC54019298F90000DFBCA /* skyCollectionViewController.m in Sources */,
 				33CBAD2F192AA2B200245B05 /* skyAboutViewController.m in Sources */,
 				33CD8A671929515F00E97667 /* skySwitchItem.m in Sources */,
 				332BC5561929EE68000DFBCA /* skyBaseSetViewController.m in Sources */,
+				3331B5C1192B077B0065C21F /* skyHtmlViewController.m in Sources */,
 				332BC54419299A9E000DFBCA /* skyProduct.m in Sources */,
 				330367A11927092E001190FD /* skyTabBarViewController.m in Sources */,
 				330367A519270A4D001190FD /* skyNavigationViewController.m in Sources */,
