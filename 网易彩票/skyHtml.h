@@ -14,6 +14,8 @@
 
 @property (nonatomic,copy)NSString *html;
 
+@property (nonatomic,copy)NSString *ID;
+
 + (instancetype)htmlWithDic:(NSDictionary *)dic;
 
 - (instancetype)initWithDic:(NSDictionary *)dic;

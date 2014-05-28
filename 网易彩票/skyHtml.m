@@ -21,6 +21,7 @@
 //        [self setValuesForKeysWithDictionary:dic];
         self.title = dic[@"title"];
         self.html = dic[@"html"];
+        self.ID = dic[@"id"];
     }
     return self;
 }

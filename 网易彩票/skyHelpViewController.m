@@ -52,7 +52,6 @@
             skyHtml *html = [skyHtml htmlWithDic:dic];
             [_htmlArray addObject:html];
         }
-         NSLog(@"%d",_htmlArray.count);
     }
     
     

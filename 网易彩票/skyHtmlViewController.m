@@ -9,7 +9,7 @@
 #import "skyHtmlViewController.h"
 #import "skyHtml.h"
 
-@interface skyHtmlViewController ()
+@interface skyHtmlViewController () <UIWebViewDelegate>
 
 @end
 
@@ -20,12 +20,6 @@
     self.view = [[UIWebView alloc] init];
 }
 
-- (void)setHtml:(skyHtml *)html
-{
-    _html = html;
-}
-
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -34,7 +28,11 @@
     
     UIWebView *webView = (UIWebView *)self.view;
     self.title = self.html.title;
+    webView.delegate = self;
     NSURL *url = [[NSBundle mainBundle]URLForResource:self.html.html withExtension:nil];
+    
+    NSLog(@"%@",url);
+    
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [webView loadRequest:request];
 }
@@ -48,6 +46,15 @@
 - (void)diss:(UIBarButtonItem *)barItem
 {
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+//利用webView来加载js代码，让网页实现定位滚动。
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    NSLog(@"%@",self.html.ID);
+    NSString *str = [NSString stringWithFormat:@"window.location.href = '#%@';",self.html.ID];
+    [webView stringByEvaluatingJavaScriptFromString:str];
 }
 
 @end
